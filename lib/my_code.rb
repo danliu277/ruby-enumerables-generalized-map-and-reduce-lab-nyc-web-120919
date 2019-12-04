@@ -1,6 +1,6 @@
 # Your Code Here
 def map(array)
-  yield()
+  yield(array)
 end
 
 def reduce()
