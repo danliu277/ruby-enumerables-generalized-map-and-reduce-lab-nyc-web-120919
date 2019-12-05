@@ -14,6 +14,7 @@ def reduce(array, start = nil)
   if(start)
     result = start
   else
+    result = 
   while index < array.length do
     result = yield(result, array[index])
     index += 1
