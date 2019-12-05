@@ -17,5 +17,6 @@ def reduce(array, start = 0)
     result = yield(result, array[index])
     index += 1
   end
+  pp result
   return result
 end
