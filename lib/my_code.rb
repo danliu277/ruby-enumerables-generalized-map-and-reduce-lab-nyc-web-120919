@@ -15,6 +15,7 @@ def reduce(array, start = nil)
     result = start
   else
     result = array[0]
+    index = 1
   end
   while index < array.length do
     result = yield(result, array[index])
