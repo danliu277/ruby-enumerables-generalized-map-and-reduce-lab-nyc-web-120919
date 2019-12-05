@@ -1,6 +1,12 @@
 # Your Code Here
 def map(array)
-  pp yield(1)
+  index = 0
+  result = []
+  while index < array.length do
+    result.push(yield(aray[index]))
+    index += 1
+  end
+  return result
 end
 
 def reduce()
