@@ -9,6 +9,7 @@ def map(array)
   return result
 end
 
+    # expect(reduce(source_array){|memo, n| memo + n}).to eq(6)
 def reduce(array, start = 0)
   index = 0
   result = start
