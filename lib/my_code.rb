@@ -13,6 +13,7 @@ def reduce(array, start = nil)
   index = 0
   if(start)
     result = start
+    index = 0
   while index < array.length do
     result = yield(result, array[index])
     index += 1
